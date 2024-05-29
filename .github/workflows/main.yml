@@ -135,4 +135,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: Подготовка к деплою успешно выполнена - все образы обновлены!
+        message: Подготовка к деплою  проекта Taski успешно выполнена - все образы обновлены!
