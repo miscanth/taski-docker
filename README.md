@@ -105,7 +105,7 @@ DB_PORT=5432
 
 * Собрать файлы статики: *sudo docker compose exec backend python manage.py collectstatic*
 
-* Скопировать файлы статики в /backend_static/static/ backend-контейнера: *docker compose exec backend cp -r /app/collected_static/. /backend_static/static/*
+* Скопировать файлы статики в /backend_static/static/ backend-контейнера: *sudo docker compose exec backend cp -r /app/collected_static/. /backend_static/static/*
 
 * Перейти по адресу 127.0.0.1:8000
 
